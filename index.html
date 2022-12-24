@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container central">
+        <form action="" id="frm">
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <label for="cuenta" class="form-label">Cuenta crédito</label><br>
+                    <select name="cuenta" class="col-12 form-control" id="cuenta">
+                        <option value="0001">0001</option>
+                        <option value="0002">0002</option>
+                        <option value="0003">0003</option>
+                        <option value="0004">0004</option>
+                        <option value="0005">0005</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center g-1 mt-2">
+                <div class="col-lg-4 col-8">
+                    <label for="nrocuenta" class="form-label">Número de Cuenta</label>
+                    <input type="text" class="form-control" name="nrocuenta" id="nrocuenta" aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="col-lg-2 col-4" >
+                    <label for="nrocuenta" class="form-label" style="width: 100%;"><div class="text-center" style="font-size: 1em;">Guardar</div></label>
+                    <input class="form-check-input checkbtn" style="display: block; margin: 0 auto;" type="checkbox" role="switch" id="guardar">
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <label for="alias" class="form-label">Alias</label>
+                    <input type="text" class="form-control" name="alias" id="alias" aria-describedby="helpId" placeholder="">
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center g-1 mt-2">
+                <div class="col-md-6 col-12">
+                    <label for="banco" class="form-label">Banco</label><br>
+                    <select name="banco" class="col-12 form-control" id="banco">
+                        <option value="0">Seleccionar</option>
+                        <option value="1">Banco Atlas</option>
+                        <option value="2">Banco Familar</option>
+                        <option value="3">Banco Vision</option>
+                        <option value="4">Banco Continental</option>
+                        <option value="5">Banco Sudameris</option>
+                    </select>
+                </div>
+                <div class="col-md-6 col-12">
+                    <label for="denominacion" class="form-label">Denominación</label>
+                    <input type="text" class="form-control" name="denominacion" id="denominacion" aria-describedby="helpId" placeholder="">
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center g-1 mt-2">
+                <div class="col-md-6 col-12">
+                    <label for="tipodoc" class="form-label">Tipo de documento</label><br>
+                    <select name="tipodoc" class="col-12 form-control" id="tipodoc">
+                        <option value="0">Seleccionar</option>
+                        <option value="1">Registro Único del Contribuyente</option>
+                        <option value="2">Cédula de Identidad</option>
+                        <option value="3">Personas No Residentes</option>
+                        <option value="4">Personas Residentes</option>
+                    </select>
+                </div>
+                <div class="col-md-6 col-12">
+                    <label for="nrodoc" class="form-label">Número de Documento</label>
+                    <input type="textfield" class="form-control" name="nrodoc" id="nrodoc" aria-describedby="helpId" placeholder="">
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center g-2 mt-2">
+                  <label for="domicilio" class="form-label">Domicilio</label>
+                  <input type="text" class="form-control" name="domicilio" id="domicilio" aria-describedby="helpId" placeholder="">
+            </div>
+ 
+            <div class="row justify-content-center align-items-center g-2 mt-2">
+                  <label for="localidad" class="form-label">Localidad</label>
+                  <input type="text" class="form-control" name="localidad" id="localidad" aria-describedby="helpId" placeholder="">
+                </div>
+            </div>
+
+        </form>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
