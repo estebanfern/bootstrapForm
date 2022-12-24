@@ -1,7 +1,7 @@
 const doc = document.getElementById("nrodoc");
 const tipo = document.getElementById("tipodoc");
 
-doc.addEventListener('keydown', (e) =>{
+doc.addEventListener('keypress', (e) =>{
     if (tipo.value == 1){
         verificarString(e.key);
     }
