@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
     $("#tipodoc").change(function(){
-        console.log(typeof($("#tipodoc").val()));
        $("#nrodoc").val(""); 
     });
 
